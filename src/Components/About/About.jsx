@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import profile_img from "../../assets/profile_img.jpg";
+import profile_img from "../../assets/profile_img.png";
 // import profile_img from "../../assets/profile_img.svg";
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
         <div className="about-rigth">
           <div className="about-para">
             <p>
-              I am an experienced Frontend developer with over a decade of
+              I am an experienced Frontend developer with over four years of
               professional expertise in the field. Throughout my career, I have
               had the privilege of collaborating with prestigious organizations,
               contributing to their success and growth.
@@ -52,17 +52,17 @@ const About = () => {
       </div>
       <div className="about-achievements">
         <div className="about-achievement">
-          <h1>10+</h1>
+          <h1>4</h1>
           <p>YEARS OF EXPERIENCE</p>
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>90+</h1>
+          <h1>10+</h1>
           <p>PROJECTS COMPLETED</p>
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>15+</h1>
+          <h1>5+</h1>
           <p>HAPPY CLIENTS</p>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./Hero.css";
-import profile_img from "../../assets/profile_img.jpg";
+import profile_img from "../../assets/profile_img.png";
 // import profile_img from "../../assets/profile_img.svg";
 
 const Hero = () => {
@@ -9,11 +9,11 @@ const Hero = () => {
     <div id="home" className="hero">
       <img src={profile_img} alt="" height={500} />
       <h1>
-        <span>I`m Alex Bennet,</span> frontend developer based in USA.
+        <span>I`m Helio Dourado,</span> frontend developer based in Brazil.
       </h1>
       <p>
-        I`m a frontend developer from California, USA with 10 years of
-        experience in multiple companies like Microsoft, Tesla and Apple.
+        I'm a frontend developer from Sao Paulo, Brazil with 4 years of
+        experience in developing digital solutions.
       </p>
       <div className="hero-action">
         <div className="hero-connect">
