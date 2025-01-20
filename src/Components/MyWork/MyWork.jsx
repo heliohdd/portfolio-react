@@ -22,6 +22,12 @@ const MyWork = () => {
       {/* Trecho a ser preservado */}
 
       <div className="mywork-container">
+        <a href="https://usepopcorn-but-better.netlify.app/">
+          {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
+          <img src={mywork_data4} alt="" />
+        </a>
+      </div>
+      <div className="mywork-container">
         <a href="https://fast-react-pizza-six-xi.vercel.app/">
           {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
           <img src={mywork_data1} alt="" />
@@ -39,12 +45,7 @@ const MyWork = () => {
           <img src={mywork_data3} alt="" />
         </a>
       </div>
-      <div className="mywork-container">
-        <a href="https://usepopcorn-but-better.netlify.app/">
-          {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
-          <img src={mywork_data4} alt="" />
-        </a>
-      </div>
+
       {/* <div className="mywork-showmore">
         <img src={arrow_icon} alt="" />
       </div> */}
