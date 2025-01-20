@@ -25,9 +25,11 @@
 }
 
 .mywork-container {
-    display: grid;
+    display: flex;
+    /* display: grid; */
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+    justify-content: center;
 }
 
 .mywork-container img {

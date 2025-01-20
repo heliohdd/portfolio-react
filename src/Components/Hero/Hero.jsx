@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./Hero.css";
@@ -21,7 +22,12 @@ const Hero = () => {
             Connect With Me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-connect">
+          <AnchorLink className="" offset={50} href="#contact">
+            Mom resume
+          </AnchorLink>
+        </div>
+        {/* #<div className="hero-resume">My resume</div> */}
       </div>
     </div>
   );
