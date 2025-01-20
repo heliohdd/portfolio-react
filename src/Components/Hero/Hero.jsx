@@ -22,11 +22,11 @@ const Hero = () => {
             Connect With Me
           </AnchorLink>
         </div>
-        <div className="hero-connect">
+        {/* #<div className="hero-connect">
           <AnchorLink className="" offset={50} href="#contact">
             Mom resume
           </AnchorLink>
-        </div>
+        </div> */}
         {/* #<div className="hero-resume">My resume</div> */}
       </div>
     </div>
