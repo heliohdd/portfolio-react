@@ -1,9 +1,10 @@
 import "./MyWork.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import mywork_data1 from "../../assets/telas_pizza_react.png";
+import mywork_data1 from "../../assets/wild-oasis-site.png";
 import mywork_data2 from "../../assets/the-wild-oasis.png";
-import mywork_data3 from "../../assets/world_wise.png";
-import mywork_data4 from "../../assets/use_pop_corn.png";
+import mywork_data3 from "../../assets/use_pop_corn.png";
+import mywork_data4 from "../../assets/pizza_react.png";
+import mywork_data5 from "../../assets/world_wise.png";
 // import arrow_icon from "../../assets/arrow_icon.svg";
 
 const MyWork = () => {
@@ -22,27 +23,37 @@ const MyWork = () => {
       {/* Trecho a ser preservado */}
 
       <div className="mywork-container">
-        <a href="https://usepopcorn-but-better.netlify.app/">
-          {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
-          <img src={mywork_data4} alt="" />
-        </a>
-      </div>
-      <div className="mywork-container">
-        <a href="https://fast-react-pizza-six-xi.vercel.app/">
-          {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
+        <a href="https://the-wild-oasis-website-nu-indol.vercel.app/">
           <img src={mywork_data1} alt="" />
+          {/* <img src={mywork_data2} alt="" /> */}
         </a>
       </div>
+
       <div className="mywork-container">
-        <a href="https://the-wild-oasis-rouge-five.vercel.app/">
+        <a href="https://heliohdd-the-wild-oasis-ci.netlify.app">
           {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
           <img src={mywork_data2} alt="" />
         </a>
       </div>
+
+      <div className="mywork-container">
+        <a href="https://usepopcorn-but-better.netlify.app/">
+          {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
+          <img src={mywork_data3} alt="" />
+        </a>
+      </div>
+
+      <div className="mywork-container">
+        <a href="https://fast-react-pizza-six-xi.vercel.app/">
+          {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
+          <img src={mywork_data4} alt="" />
+        </a>
+      </div>
+
       <div className="mywork-container">
         <a href="https://worldwise-app-black.vercel.app//">
           {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
-          <img src={mywork_data3} alt="" />
+          <img src={mywork_data5} alt="" />
         </a>
       </div>
 

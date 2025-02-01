@@ -31,28 +31,32 @@ const About = () => {
 
           <div className="about-skills">
             <div className="about-skill">
-              <p>HTML & CSS</p>
-              <hr style={{ width: "50%" }} />
+              <p>Next.js</p>
+              <hr style={{ width: "80%" }} />
             </div>
+
             <div className="about-skill">
               <p>React JS</p>
+              <hr style={{ width: "90%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>HTML & CSS</p>
               <hr style={{ width: "70%" }} />
             </div>
+
             <div className="about-skill">
               <p>JavaScript</p>
               <hr style={{ width: "60%" }} />
             </div>
-            <div className="about-skill">
-              <p>React Router</p>
-              <hr style={{ width: "60%" }} />
-            </div>
+
             <div className="about-skill">
               <p>React Query | Redux Toolkit</p>
               <hr style={{ width: "50%" }} />
             </div>
             <div className="about-skill">
               <p>Tailwindcss | Styled components</p>
-              <hr style={{ width: "50%" }} />
+              <hr style={{ width: "100%" }} />
             </div>
           </div>
         </div>
