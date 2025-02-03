@@ -23,35 +23,41 @@ const MyWork = () => {
       {/* Trecho a ser preservado */}
 
       <div className="mywork-container">
-        <a href="https://the-wild-oasis-website-nu-indol.vercel.app/">
+        <a
+          href="https://the-wild-oasis-website-nu-indol.vercel.app/"
+          target="_blank"
+        >
           <img src={mywork_data1} alt="" />
           {/* <img src={mywork_data2} alt="" /> */}
         </a>
       </div>
 
       <div className="mywork-container">
-        <a href="https://heliohdd-the-wild-oasis-ci.netlify.app">
+        <a
+          href="https://heliohdd-the-wild-oasis-ci.netlify.app"
+          target="_blank"
+        >
           {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
           <img src={mywork_data2} alt="" />
         </a>
       </div>
 
       <div className="mywork-container">
-        <a href="https://usepopcorn-but-better.netlify.app/">
+        <a href="https://usepopcorn-but-better.netlify.app/" target="_blank">
           {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
           <img src={mywork_data3} alt="" />
         </a>
       </div>
 
       <div className="mywork-container">
-        <a href="https://fast-react-pizza-six-xi.vercel.app/">
+        <a href="https://fast-react-pizza-six-xi.vercel.app/" target="_blank">
           {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
           <img src={mywork_data4} alt="" />
         </a>
       </div>
 
       <div className="mywork-container">
-        <a href="https://worldwise-app-black.vercel.app//">
+        <a href="https://worldwise-app-black.vercel.app//" target="_blank">
           {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
           <img src={mywork_data5} alt="" />
         </a>
