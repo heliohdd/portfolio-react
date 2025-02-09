@@ -17,13 +17,13 @@ const About = () => {
         <div className="about-rigth">
           <div className="about-para">
             <p>
-              I am an experienced Frontend developer with over four years of
+              I am an experienced Full Stack developer with over four years of
               professional expertise in the field. Throughout my career, I have
               had the privilege of collaborating with prestigious organizations,
               contributing to their success and growth.
             </p>
             <p>
-              My passion for frontend development is not only reflected in my
+              My passion for Full Stack development is not only reflected in my
               extensive experience but also in the enthusiasm and dedication I
               bring to each project.
             </p>
@@ -48,6 +48,11 @@ const About = () => {
             <div className="about-skill">
               <p>JavaScript</p>
               <hr style={{ width: "60%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>Java | Spring Boot</p>
+              <hr style={{ width: "80%" }} />
             </div>
 
             <div className="about-skill">

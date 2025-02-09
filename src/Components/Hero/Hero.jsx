@@ -9,10 +9,10 @@ const Hero = () => {
     <div id="home" className="hero">
       <img src={profile_img} alt="" height={500} />
       <h1>
-        <span>I`m Helio Dourado,</span> frontend developer based in Brazil.
+        <span>I`m Helio Dourado,</span> Full Stack developer based in Brazil.
       </h1>
       <p>
-        I'm a frontend developer from Sao Paulo, Brazil with 4 years of
+        I'm a Full Stack developer from Sao Paulo, Brazil with 4 years of
         experience in developing digital solutions.
       </p>
       <div className="hero-action">

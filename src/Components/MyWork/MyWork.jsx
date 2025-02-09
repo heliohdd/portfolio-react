@@ -24,7 +24,7 @@ const MyWork = () => {
 
       <div className="mywork-container">
         <a
-          href="https://the-wild-oasis-website-nu-indol.vercel.app/"
+          href="https://heliohdd-wild-oasis-website.vercel.app"
           target="_blank"
         >
           <img src={mywork_data1} alt="" />
@@ -37,9 +37,14 @@ const MyWork = () => {
           href="https://heliohdd-the-wild-oasis-ci.netlify.app"
           target="_blank"
         >
-          {/* <a href="https://github.com/heliohdd/fast-react-pizza"> */}
           <img src={mywork_data2} alt="" />
         </a>
+        {/* <a
+          href="https://github.com/heliohdd/the-wild-oasis?tab=readme-ov-file#readme"
+          target="_blank"
+        >
+          Git Hub
+        </a> */}
       </div>
 
       <div className="mywork-container">
