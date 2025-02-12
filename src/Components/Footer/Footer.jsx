@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-top-left">
           {/* <img src={footer_logo} alt="" /> */}
           <p>
-            I am a fronted developer from Brazil with 4 years of experience in
+            I am a Full Stack developer from Brazil with 4 years of experience in
             digital solutions.
           </p>
         </div>
