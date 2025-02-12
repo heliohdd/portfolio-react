@@ -52,7 +52,7 @@ const MyWork = () => {
 
       <div className="mywork-container">
         <div className="p-2">
-          <a href="https://heliohdd-worldwise-app.vercel.app/" target="_blank">
+          <a href="https://worldwise-jonas.netlify.app" target="_blank">
             <img src={mywork_data5} alt="World Wise" />
           </a>
           <div className="flex justify-center text-xl py-2 gap-2">
